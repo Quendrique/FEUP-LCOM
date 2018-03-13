@@ -91,4 +91,13 @@ int timer_test_int(unsigned long time);
  */
 int timer_test_config(unsigned char timer);
 
+/**
+ * @brief Obtains the set frequency of a timer 0;
+ *
+ * Utilizes the timer's pre-programmed value to calculate the frequency
+ *
+ * @param timer Timer to read from
+ * @return Returns the frequency upon success and -1 otherwise
+ */
+
 #endif /* __TIMER_H */
